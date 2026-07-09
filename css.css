@@ -612,7 +612,7 @@
             border: 1px solid rgba(84, 255, 41, 0.25)
         }
 
-        .pc-tigre {
+        .pc-master {
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -620,7 +620,7 @@
             margin-bottom: 16px
         }
 
-        .pc-tigre img {
+        .pc-master img {
             max-width: 180px;
             max-height: 200px;
             width: auto;
@@ -628,11 +628,11 @@
             object-fit: contain
         }
 
-        .pc.bad .pc-tigre img {
+        .pc.bad .pc-master img {
             filter: drop-shadow(0 6px 20px rgba(200, 0, 0, .3))
         }
 
-        .pc.good .pc-tigre img {
+        .pc.good .pc-master img {
             filter: drop-shadow(0 6px 20px rgba(66, 255, 41, 0.35))
         }
 
