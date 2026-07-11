@@ -52,7 +52,7 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1188px;
             margin: 0 auto;
             padding: 0 24px
         }
@@ -951,7 +951,7 @@
             }
             /* HERO mobile: imagem portrait do lobo */
             #hero{
-    background-image:url("imagens/Fundo\ inicio\ -\ Copia.png");
+    background-image:url("imagens/Fundo\ inicio\ -\ CELULAR.png");
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
