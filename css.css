@@ -233,14 +233,11 @@
         }
 
         .hero-content {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    max-width: 1188px;
-    margin: 0 auto;
-    padding: 40px 24px 60px;
-    animation: fadeIn .7s ease both;
-}
+            position: relative;
+            z-index: 2;
+            padding: 40px 24px 60px max(24px, calc((100vw - 1180px)/2 + 24px));
+            animation: fadeIn .7s ease both
+        }
 
         @keyframes fadeIn {
             from {
@@ -892,13 +889,11 @@
         }
 
         .final-content {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    max-width: 1188px;
-    margin: 0 auto;
-    padding: 80px 24px;
-}
+            position: relative;
+            z-index: 2;
+            width: 56%;
+            padding: 80px 0 80px max(24px, calc((100vw - 1180px)/2 + 24px))
+        }
 
         .final-title {
             font-family: 'Anton', sans-serif;
@@ -955,7 +950,7 @@
                 display: none
             }
             /* HERO mobile: imagem portrait do lobo */
-            #hero {
+             #hero {
     position: relative;
     width: 100%;
     min-height: 100svh;
@@ -966,7 +961,7 @@
 
     overflow: hidden;
 
-    background-image: url("imagens/Fundo inicio.png");
+    background-image: url("imagens/Fundo\ inicio\ -\ CELULAR.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1070,10 +1065,13 @@
                 z-index: 1;
             }
             .final-content {
-                width: 100%;
-                padding: 52px 24px 60px;
-                text-align: center;
-            }
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1188px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
             .final-desc {
                 margin: 0 auto 40px
             }
