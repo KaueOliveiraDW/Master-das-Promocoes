@@ -950,14 +950,17 @@
                 display: none
             }
             /* HERO mobile: imagem portrait do lobo */
-             #hero {
+             /* Localize este bloco dentro de @media(max-width:960px) e substitua: */
+#hero {
     position: relative;
     width: 100%;
     min-height: 100svh;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* Mudamos para Flexbox para empilhar e centralizar perfeitamente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente na tela */
+    align-items: center;     /* Centraliza horizontalmente na tela */
 
     overflow: hidden;
 
